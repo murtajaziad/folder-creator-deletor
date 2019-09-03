@@ -1,0 +1,27 @@
+{
+    "name": "folder-creator-deletor",
+    "version": "1.0.0",
+    "description": "A simple folder creator & deletor.",
+    "main": "dist/index.js",
+    "scripts": {
+        "start": "node dist/index.js",
+        "postinstall": "npm run build-ts",
+        "build-ts": "tsc",
+        "watch-ts": "tsc -w"
+    },
+    "keywords": [],
+    "author": "Murtaja Ziad <murtaja.ziad2014@gmail.com>",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/MurtajaZiad/folder-creator-deletor"
+    },
+    "dependencies": {
+        "console-read-write": "^0.1.1",
+        "fs": "0.0.1-security",
+        "path": "^0.12.7"
+    },
+    "devDependencies": {
+        "typescript": "^3.6.2"
+    }
+}

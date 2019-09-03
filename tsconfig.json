@@ -1,0 +1,20 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+      "outDir": "./dist",
+      "types": ["node"],
+      "allowJs": true,
+      "moduleResolution": "node",
+      "module": "commonjs",
+      "target": "es2017",
+      "pretty": true,
+      "lib": [
+        "esnext",
+        "esnext.array",
+        "esnext.asynciterable",
+        "esnext.intl",
+        "esnext.symbol"
+      ]
+    },
+    "include": ["./src/**/*"]
+}
